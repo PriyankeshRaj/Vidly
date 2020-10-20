@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+
+[packages]
+pylint = "*"
+django = "==2.1.5"
+django-html = "*"
+pylint-django = "*"
+django-tastypie = "*"
+gunicorn = "*"
+whitenoise = "*"
+
+[requires]
+python_version = "3.8"
