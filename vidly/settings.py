@@ -25,7 +25,9 @@ SECRET_KEY = '!88+s_!k7)9-2crmpjy9hp91ub+jjiig3283m5opao*o^=+o&d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'frozen-scrubland-45531.herokuapp.com'
+]
 
 
 # Application definition
